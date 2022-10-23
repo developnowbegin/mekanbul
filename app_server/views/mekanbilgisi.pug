@@ -1,27 +1,27 @@
 extends layout
+include fonksiyonlar/yildiz
 block content
   .row.page-header
     .col-lg-12
-      h1 Starbucks
+      h1 #{mekanBaslik}
   .row 
     .col-xs-12.col-md-12 
       .row 
         .col-xs-12.col-sm-6 
           p.rating 
-            span.glyphicon.glyphicon-star 
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star-empty
+            +puanOlustur(mekanDetay.puan)
           p Centrum Garden Avm 
           .panel.panel-primary 
             .panel-heading 
               h2.panel-title Açılış Saatleri
             .panel-body
-              p 
-                | Pazartesi - Cuma: 07:00 - 23:00
-              p
-                | Cumartesi - Pazar: 09:00 - 22:00
+              each saat in mekanDetay.saatler
+                p 
+                  | #{saat.gunler}:&nbsp;
+                  if(saat.kapali)
+                    | Kapalı
+                  else 
+                    | #{saat.acilis}-#{saat.kapanis}
           .panel.panel-primary
             .panel-heading
               h2.panel-title Neler Var ?
