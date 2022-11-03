@@ -52,8 +52,8 @@ const mekanBilgisi=function(req, res, next) {
         ],
         "imkanlar":["Kahve","Cay","Kek"],
         "koordinatlar":{
-            "enlem":"37.7",
-            "boylam":"30.5"
+            "enlem":"37.78",
+            "boylam":"30.56"
         },
         "yorumlar":[
             {
