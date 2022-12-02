@@ -1,8 +1,3 @@
 "# mekanbul" 
-# MekanBul REST API Testleri
-
-### Api Collections Test
-![1](/resimler/mekanbul-api-testi.png)
-
-### Api Mocha Test
-![2](/resimler/mocha-api-testi.png)
+[https://mekanbul-1.melihsinanacikgoz.repl.co/?enlem=37&boylam=35](https://mekanbul-1.melihsinanacikgoz.repl.co/?enlem=37&boylam=35)
+![Odev7resim](/resimler/odev7ss.png)
