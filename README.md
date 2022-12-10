@@ -1,3 +1,3 @@
-"# mekanbul" 
-[https://mekanbul-1.melihsinanacikgoz.repl.co/?enlem=37&boylam=35](https://mekanbul-1.melihsinanacikgoz.repl.co/?enlem=37&boylam=35)
-![Odev7resim](/resimler/odev7ss.png)
+# MekanBul REST API TESTLERİ
+[Replit Adresi](https://mekanbul-1.melihsinanacikgoz.repl.co/?enlem=37.5&boylam=30.5)
+![Replit Adresi](./resimler/replitTestOdev8.png)
