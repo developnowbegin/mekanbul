@@ -1,7 +1,7 @@
 require("./mekansema");
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost/mekanbul'; 
-//var dbURI = 'mongodb+srv://sinan:1234@mekanbul.lk81mfb.mongodb.net/?retryWrites=true&w=majority';
+//var dbURI = 'mongodb://localhost/mekanbul'; 
+var dbURI = 'mongodb+srv://sinan:1234@mekanbul.lk81mfb.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(dbURI);
 mongoose.connection.on("connected", function(){
     console.log(dbURI+" adresindeki veritabanina baglanildi!\n");
